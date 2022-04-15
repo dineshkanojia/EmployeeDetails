@@ -1,0 +1,21 @@
+
+{
+    "region" : "us-east-1",
+    "configuration" : "Debug",
+    "framework"     : "net5.0",
+    "self-contained" : false,
+    "application"    : "LoginAPI",
+    "environment"    : "LoginAPI-dev",
+    "app-path"       : "/",
+    "iis-website"    : "Default Web Site",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "enhanced",
+    "additional-options"   : "",
+    "solution-stack"       : "64bit Windows Server 2019 v2.9.0 running IIS 10.0",
+    "environment-type"     : "SingleInstance",
+    "cname"                : "loginapi-dev",
+    "instance-type"        : "t3a.medium",
+    "key-pair"             : "vockey",
+    "instance-profile"     : "LabInstanceProfile",
+    "service-role"         : "LabRole"
+}

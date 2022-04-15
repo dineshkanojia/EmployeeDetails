@@ -1,0 +1,12 @@
+E:\Working Project\TestAPI\LoginAPI\DataLayer\bin\Release\net5.0\DataLayer.deps.json
+E:\Working Project\TestAPI\LoginAPI\DataLayer\bin\Release\net5.0\DataLayer.dll
+E:\Working Project\TestAPI\LoginAPI\DataLayer\bin\Release\net5.0\ref\DataLayer.dll
+E:\Working Project\TestAPI\LoginAPI\DataLayer\bin\Release\net5.0\DataLayer.pdb
+E:\Working Project\TestAPI\LoginAPI\DataLayer\obj\Release\net5.0\DataLayer.csproj.AssemblyReference.cache
+E:\Working Project\TestAPI\LoginAPI\DataLayer\obj\Release\net5.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Working Project\TestAPI\LoginAPI\DataLayer\obj\Release\net5.0\DataLayer.AssemblyInfoInputs.cache
+E:\Working Project\TestAPI\LoginAPI\DataLayer\obj\Release\net5.0\DataLayer.AssemblyInfo.cs
+E:\Working Project\TestAPI\LoginAPI\DataLayer\obj\Release\net5.0\DataLayer.csproj.CoreCompileInputs.cache
+E:\Working Project\TestAPI\LoginAPI\DataLayer\obj\Release\net5.0\DataLayer.dll
+E:\Working Project\TestAPI\LoginAPI\DataLayer\obj\Release\net5.0\ref\DataLayer.dll
+E:\Working Project\TestAPI\LoginAPI\DataLayer\obj\Release\net5.0\DataLayer.pdb
