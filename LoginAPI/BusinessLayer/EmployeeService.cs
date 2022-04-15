@@ -55,12 +55,12 @@ namespace BusinessLayer
         }
 
         //Delete Person 
-        public bool DeletePerson(string UserName)
+        public bool DeletePerson(int id)
         {
 
             try
             {
-                var DataList = _employee.GetAll().Where(x => x.UserName == UserName).ToList();
+                var DataList = _employee.GetAll().Where(x => x.Id == id).ToList();
                 foreach (var item in DataList)
                 {
                     _employee.Delete(item);
@@ -86,10 +86,10 @@ namespace BusinessLayer
                     emp.Id = employee.Id;
                     emp.Email = employee.Email;
                     emp.UserName = employee.UserName;
-                    emp.Password = employee.Password;
+                   // emp.Password = employee.Password;
                     emp.Address1 = employee.Address1;
                     emp.Address2 = employee.Address2;
-                    emp.Photo = employee.Photo;
+                   // emp.Photo = employee.Photo;
                     emp.Desgination = employee.Desgination;
                     emp.DOB = employee.DOB;
                     emp.FirstName = employee.FirstName;
