@@ -44,12 +44,12 @@ namespace LoginAPI.Controllers
         }
 
         [HttpDelete("DeleteEmployee")]
-        [Authorize(Roles = "Admin")]
-        public bool DeletePerson(string UserName)
+        //[Authorize(Roles = "Admin")]
+        public bool DeletePerson(int Id)
         {
             try
             {
-                _employeeService.DeletePerson(UserName);
+                _employeeService.DeletePerson(Id);
                 return true;
             }
             catch (Exception)
@@ -58,8 +58,8 @@ namespace LoginAPI.Controllers
             }
         }
 
-        [HttpPut("UpdateEmployee")]
-        [Authorize(Roles = "Admin, Employee")]
+        [HttpPost("UpdateEmployee")]
+       // [Authorize(Roles = "Admin, Employee")]
         public bool UpdatePerson(Employee employee)
         {
             try
